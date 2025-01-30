@@ -1,0 +1,61 @@
+/** @format */
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f4f4f4;
+	font-family: Arial,
+		sans-serif;
+}
+.p-card {
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px
+		8px
+		rgba(0, 0, 0, 0.2);
+	text-align: center;
+	max-width: 300px;
+}
+.p-pic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 3px solid
+		#4caf50;
+}
+.p-name {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.j-title {
+	font-size: 16px;
+	color: gray;
+	margin-bottom: 15px;
+}
+.bio {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 15px;
+}
+.location,
+.email,
+.time {
+	font-size: 14px;
+	margin-top: 5px;
+}
+.socials {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.socials a {
+	margin: 0 5px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #4caf50;
+}
