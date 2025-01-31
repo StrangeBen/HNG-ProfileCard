@@ -23,12 +23,16 @@
 		<section
 			class="p-card"
 		>
-			<img
-				src="images/Ben Img.png"
-				alt="my-profile-pic"
-				class="p-pic"
-				data-testid="profilePicture"
-			/>
+			<div
+				class="top-layer"
+			>
+				<img
+					src="images/profile.png"
+					alt="my-profile-pic"
+					class="p-pic"
+					data-testid="profilePicture"
+			/></div>
+
 			<div
 				class="p-name"
 				data-testid="fullName"
@@ -42,22 +46,24 @@
 				Developer</div
 			>
 			<div
+				id="biography"
 				class="bio"
 				data-testid="shortBio"
-				>A frontend
-				Developer
-				proficient in
-				using React and
-				Angular to make
-				User-friendly
-				and Mobile
-				responsive web
-				interfaces.</div
-			>
-			<div
-				class="location"
-				data-testid="currentLocation"
 			></div>
+
+			<div
+				class="email"
+				data-testid="emailAddress"
+			>
+				<i
+					class="fa-solid fa-envelope"
+					style="
+						color: #4caf50;
+					"
+				></i>
+
+				oduolatemmy@gmail.com</div
+			>
 			<div
 				class="email"
 				data-testid="emailAddress"
